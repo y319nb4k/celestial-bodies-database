@@ -1518,3 +1518,9 @@ psql -U postgres < universe.sql
 git status
 git add.
 git add .
+git status
+git commit -m "finished"
+git push --set-upstream origin solution
+git checkout main
+git status
+git add .
